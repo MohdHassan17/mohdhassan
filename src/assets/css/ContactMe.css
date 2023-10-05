@@ -1,0 +1,32 @@
+.contact{
+    margin-top: 100px;
+
+ 
+   
+}
+
+.contact-container{
+    margin-top: 90px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  
+}
+
+
+.socials{
+    float: left
+}
+
+.social-img{
+    width:80px;
+}
+
+
+
+
+@media only screen and (max-width :670px){
+    .social-img{
+        width: 50px;;
+    }
+}

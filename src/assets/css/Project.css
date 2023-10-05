@@ -1,0 +1,162 @@
+.projects{
+ 
+    width:95%;
+    margin: auto;
+    margin-top: 10%;
+}
+
+
+.projects-container{
+  margin-top: 110px;
+     overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+    &::-webkit-scrollbar {
+    display: none;
+  
+  }
+
+  -webkit-overflow-scrolling: touch;
+}
+
+.project{
+    display:inline-block;
+    width:350px;
+    height: 270px;
+  border: 2px solid rgb(226, 219, 219);
+    margin: 10px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 4px grey;
+}
+
+.project-img{
+  width: 100%;
+  height: 100%;
+  transition: .4s ease;
+
+}
+
+.project-img-container{
+  position: absolute;
+  top:0;
+  left:0;
+  z-index: -1;
+  overflow:hidden;
+}
+
+.project-wrapper{
+  z-index: 1;
+  position: absolute;
+  bottom:0;
+  left:0;
+width:inherit;
+height: 110px;;
+  background: whitesmoke;
+  border-bottom: 4px solid #07beb8 ;
+  padding: 10px;
+}
+
+.project:hover .project-img{
+  transform: scale(110%);
+}
+
+
+
+
+.project-heading{
+  font-size:20px;
+}
+
+.project-framework{
+  margin-top:-10px;
+}
+
+.project-framework h6{
+  width: 80px;
+
+  text-align: center;
+  border-radius:20px;;
+  background-color: rgb(20, 107, 158);
+}
+
+
+
+
+.another-wrapper{
+  width:88%;
+  height: 100%;
+  margin:auto;
+  padding-left: 5px;
+  border-left: 4px solid #07beb8;
+
+}
+
+.project-btn-container{
+  margin-top: 12px;
+ 
+}
+
+.project-btn {
+  width: 100px;
+  height: 14px;;
+  border-radius: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  margin:5px;
+  position: relative;
+  padding:10px;
+  padding-left:25px;
+
+  
+}
+
+
+.btn-icon{
+  width: 18px;
+  position:absolute;
+  left:10px;
+  bottom: 8px
+
+
+
+}
+
+.link-btn{
+  border:2px solid  #07beb8;
+}
+
+.github-btn{
+  background-color: black;
+  border: 2px solid black;
+
+}
+
+.github-btn>.text{
+  color:white;
+}
+
+@media only screen and (max-width:400px){
+  .project{
+   
+    width:90vw;
+    height: 270px;
+  }
+
+  .another-wrapper{
+    width: 98%;
+  }
+
+  .project-btn{
+    width: 85px;
+    height: 12px;
+    padding-left: 20px;
+    font-size: 9px;
+  }
+
+  .btn-icon{
+    left:7px;
+    
+  }
+}
