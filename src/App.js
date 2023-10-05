@@ -44,8 +44,7 @@ function App() {
         <img src={Arrow} alt="" />
       </div> 
      */}
-   
-   <BrowserRouter>
+
      <Routes>
         <Route path='/' exact element={<>     <Navbar/>
       <Intro/>
@@ -61,7 +60,7 @@ function App() {
 
     <Route path='/adminIsHassan' element={<Admin/>}/>
      </Routes>
-   </BrowserRouter>
+
  
 
     
