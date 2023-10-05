@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/mohdhassan/static/css/main.198c5c70.css",
+    "main.js": "/mohdhassan/static/js/main.0227084d.js",
+    "static/js/787.1ed0c42c.chunk.js": "/mohdhassan/static/js/787.1ed0c42c.chunk.js",
+    "static/media/galaxy.jpg": "/mohdhassan/static/media/galaxy.5f932a4092e466438779.jpg",
+    "static/media/handsome.png": "/mohdhassan/static/media/handsome.bbc788ff9d02cca87db7.png",
+    "static/media/instagram.png": "/mohdhassan/static/media/instagram.e719d8b29f452a16302d.png",
+    "static/media/whatsapp (1).png": "/mohdhassan/static/media/whatsapp (1).c339ff504121f060e736.png",
+    "static/media/test.png": "/mohdhassan/static/media/test.f808e1b156f1f1158ff2.png",
+    "static/media/left-arrow.png": "/mohdhassan/static/media/left-arrow.04980e20136efd17bd86.png",
+    "static/media/facebook.png": "/mohdhassan/static/media/facebook.49e67d43221b6bb1aa86.png",
+    "static/media/django.png": "/mohdhassan/static/media/django.559d0c6161a6fb950f02.png",
+    "index.html": "/mohdhassan/index.html",
+    "main.198c5c70.css.map": "/mohdhassan/static/css/main.198c5c70.css.map",
+    "main.0227084d.js.map": "/mohdhassan/static/js/main.0227084d.js.map",
+    "787.1ed0c42c.chunk.js.map": "/mohdhassan/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.198c5c70.css",
+    "static/js/main.0227084d.js"
+  ]
+}
