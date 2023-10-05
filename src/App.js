@@ -17,7 +17,7 @@ import projectContext from './ProjectContext';
 import Projects from './components/Projects';
 import ContactMe from './components/ContactMe';
 
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Admin from './components/Admin';
 
 function App() {
@@ -45,7 +45,7 @@ function App() {
       </div> 
      */}
    
-   <BrowserRouter>
+   <HashRouter>
      <Routes>
         <Route path='/' index element={<>     <Navbar/>
       <Intro/>
@@ -61,7 +61,7 @@ function App() {
 
     <Route path='/adminIsHassan' element={<Admin/>}/>
      </Routes>
-   </BrowserRouter>
+   </HashRouter>
  
 
     
